@@ -24,7 +24,7 @@ dependencies = [
     "sentencepiece>=0.1.99",
     "tenacity>=9.1.2",
     "tiktoken>=0.7.0",
-    "transformers>=4.40.1",
+    "transformers>=4.40.1,<5",
     "transformers-stream-generator>=0.0.4",
     "unidic-lite==1.0.8",
     "vertexai>=1.49.0",
