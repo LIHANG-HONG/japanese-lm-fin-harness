@@ -1,7 +1,6 @@
 def _context_instruction_question(doc):
     parts = []
-    if doc.get("instruction"):
-        parts.append(doc["instruction"])
+    parts.append(doc["instruction"])
     parts.append(doc["question"])
     return "\n".join(parts)
 
